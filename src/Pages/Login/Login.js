@@ -22,11 +22,12 @@ const Login = () => {
   const navigate =useNavigate();
   useTitle('Login')
 
-  const from= '/';
+//   const from= '/';
 
-if(token){
-  navigate(from, {replace:true})
-}
+// if(token){
+//   navigate(from, {replace:true})
+// }
+
   const handleLogin = (data) => {
     setLoginError("");
     signIn(data.email, data.password)
