@@ -1,6 +1,6 @@
 # Website Name : BookStore
 
-## Live site link : https://assignment-12-7f5af.web.app
+## Live site link : https://bookstore-resale-site.netlify.app/
 
 ## user's credentials
 - user email : a@gmail.com
