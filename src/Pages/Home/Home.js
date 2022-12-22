@@ -1,5 +1,6 @@
 import React from "react";
 import useTitle from "../../Hooks/useTitle";
+import Banner from "./Banner";
 import Advertisements from "./Category/Advertisements";
 import Categories from "./Category/Categories";
 import Slider from "./Slider";
@@ -8,11 +9,9 @@ const Home = () => {
   useTitle('BookStore')
   return (
     <div>
-      <h1 className="mt-12 font-semibold font-sans text-3xl text-center italic text-green-500">
-        Hello! <br /> welcome to our website and buy your favourite books
-        online.
-      </h1>
-      <Slider></Slider>
+     
+        <Banner></Banner>
+      {/* <Slider></Slider> */}
 
       <Categories></Categories>
 
@@ -53,7 +52,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Advertisements></Advertisements>     
+      {/* <Advertisements></Advertisements>      */}
     </div>
   );
 };

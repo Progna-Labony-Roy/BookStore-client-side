@@ -28,7 +28,7 @@ const data = [
 
 const Slider = () => {
   return (
-    <div className="carousel my-10">
+    <div className="carousel">
     {
         data.map((sliderImage => <SliderImage key={sliderImage.id} sliderImage={sliderImage}></SliderImage>))
     }

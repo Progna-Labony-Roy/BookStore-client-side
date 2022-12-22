@@ -13,13 +13,15 @@ const Categories = () => {
        .then(data=> setCategories(data))
     },[])
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-10'>
+       
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-10 mt-12'>
          
-           {
-                categories.map(category => <Category key={category._id} category={category}
-                 ></Category>)
-            }
-        
+         {
+              categories.map(category => <Category key={category._id} category={category}
+               ></Category>)
+          }
+      
+     
         </div>
     );
 };
